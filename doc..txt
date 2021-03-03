@@ -1,0 +1,7 @@
+npm i express express-handlebars //express es el framework para apis y express-handlebars permite ejecutar logica de programacion dentro de las vistas .hbs que reemplazan a los html for, if, etc
+npm install -g typescript //instalacion de typesript
+tsc --init //crea archivo de configuracion de typescript
+npm i @types/express -D //permite que el editor autocomplete express y no senale en rojo
+tsc //convierte el codigo typescript a javascript con la configuracion q se establecio
+npm i ts-node -D //instala el paquete q ejecuta el codigo typescript sin necesidad de convertirlo
+npm i @types/express-handlebars
