@@ -1,4 +1,11 @@
+npm init --yes //crea proyecto de node
 npm i express express-handlebars //express es el framework para apis y express-handlebars permite ejecutar logica de programacion dentro de las vistas .hbs que reemplazan a los html for, if, etc
+
+//para el api conectado a la base de datos
+npm i express express-handlebars mongoose //se agrega mongoose en este caso, ya debe estar instalado mongodb instalado
+
+mkdir src //se crea una carpeta donde estara todo el codigo del proyecto
+
 npm install -g typescript //instalacion de typesript
 tsc --init //crea archivo de configuracion de typescript
 npm i @types/express -D //permite que el editor autocomplete express y no senale en rojo
